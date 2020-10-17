@@ -7,6 +7,14 @@ import { container } from './style.module.css';
  * @extends HTMLElement
  */
 class CustomElement extends window.HTMLElement {
+	/** Observed attributes */
+	static get observedAttributes() {
+		return [];
+	}
+
+	/** Element attributes has change. */
+	attributeChangedCallback(name, oldValue, newValue) {}
+
 	/** Element appends in DOM. */
 	connectedCallback() {
 		this.classList.add(container);
