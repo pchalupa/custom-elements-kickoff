@@ -1,5 +1,7 @@
 # Custom Elements Kickoff
 
+![CI](https://github.com/pchalupa/custom-elements-kickoff/workflows/CI/badge.svg)
+
 Custom elements gives you ability to create own HTML element or extend existing one. This is starter template for this kind of project. You can read more about this feature [here](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements).
 
 ## Getting Started
