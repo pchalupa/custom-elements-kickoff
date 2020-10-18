@@ -4,6 +4,6 @@ exports[`custom-element renders correctly 1`] = `
 <custom-element
   class="container"
 >
-  <div />
+  <h1 />
 </custom-element>
 `;
