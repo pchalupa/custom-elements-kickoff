@@ -29,7 +29,8 @@ class CustomElement extends window.HTMLElement {
 	 */
 	render() {
 		/** @type {SearchResult} */
-		this.element = document.createElement('div');
+		this.element = document.createElement('h1');
+		this.element.innerText = 'Hello, World!';
 		this.appendChild(this.element);
 	}
 }
